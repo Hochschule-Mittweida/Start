@@ -7,7 +7,6 @@ print("HSMW: Invite")
 
 # Get Secrets
 MY_GITHUB_KEY = os.environ['MY_GITHUB_KEY']
-COMMUNITY_TEAM_ID = os.environ['COMMUNITY_TEAM_ID']
 
 # Get Data
 file = open(os.environ['GITHUB_EVENT_PATH'])
@@ -19,11 +18,11 @@ USERNAME = data['sender']['login']
 print('Invite user @'+USERNAME)
 
 # Send Request
-url = 'https://api.github.com/teams/'+COMMUNITY_TEAM_ID+'/memberships/' + USERNAME
-payload=''
+url = 'https://api.github.com/orgs/Hochschule-Mittweida/invitations/' + USERNAME
+payload=f"{'email': {USERNAME}}"
 headers = {
     'Accept': 'application/vnd.github.v3+json',
     'Authorization': 'token '+MY_GITHUB_KEY
 }
-response = requests.request("PUT", url, headers=headers, data=payload)
+response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)

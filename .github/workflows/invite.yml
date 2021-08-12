@@ -21,4 +21,3 @@ jobs:
             python ./invite/invite.py
           env:
             MY_GITHUB_KEY: ${{ secrets.MY_GITHUB_KEY }}
-            COMMUNITY_TEAM_ID: ${{ secrets.COMMUNITY_TEAM_ID }}
