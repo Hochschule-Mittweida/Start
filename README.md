@@ -1,4 +1,4 @@
-![HSMW Logo](images\logo.png)
+![HSMW Logo](/images/logo.png)
 # GitHub der Hochschule Mittweida (Pilotphase)
 
 ## Allgemeines
@@ -22,5 +22,6 @@ Aktuell befindet sich unsere GitHub-Organisation noch im Aufbau bzw. in der Erpr
 Für größere Fachgruppen oder Projekte macht es unter Umständen Sinn eine eigene Organisation zu verwalten. Nur Mitarbeiter können eine eigene Organisation mit allen Enterprise-Features bei [uns](mailto:it-service@hs-mittweida.de) beantragen. Die Verwaltung der Organisation erfolgt dann selbstständig durch mindestens zwei benannte Administratoren, welche mit GitHub vertraut sind.
 
 ## Support
+* [New Issue](https://github.com/Hochschule-Mittweida/Start/issues/new)
 * [Helpdesk-Formular](https://www.ncc.hs-mittweida.de/nc/helpdesk/)
 * E-Mail: it-service@hs-mittweida.de
