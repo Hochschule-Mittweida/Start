@@ -2,10 +2,7 @@ import os
 import json
 import requests
 
-# Lets go
-print("HSMW: Invite")
-
-# Get Secretspytho
+# Get Secret
 MY_GITHUB_KEY = os.environ['MY_GITHUB_KEY']
 
 # Get Data
@@ -13,7 +10,7 @@ file = open(os.environ['GITHUB_EVENT_PATH'])
 data = json.load(file)
 #print(f"GitHub-Data:{data}")
 
-# Get Username
+# Get Username from Data
 USERNAME = data['sender']['login']
 print('Invite user @'+USERNAME)
 
