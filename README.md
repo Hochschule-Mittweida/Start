@@ -10,7 +10,7 @@
   * _für Dozenten:_ werde [Campus Advisor](https://education.github.com/teachers/advisors) und nutze [GitHub Classroom](https://classroom.github.com/classrooms)
 
 ## Wie werde ich Mitglied der GitHub-Organisation?
-* Voraussetzung ist ein geschäfliches Microsoft-Konto der Hochschule Mittweida
+* Voraussetzung ist ein geschäftliches Microsoft-Konto der Hochschule Mittweida ([weitere Informationen zu den Micrsooft 365 Diensten](https://www.ncc.hs-mittweida.de/software/microsoft/365/))
 * Klicke in diesem Repo auf `Star`
 * das automatische Einladungssystem basiert auf der Idee von [BaseMax/AutoInviteToOrgByStar](https://github.com/BaseMax/AutoInviteToOrgByStar)
 
